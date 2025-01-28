@@ -31,5 +31,5 @@ services:
     restart: always
     build: ./front
 
-  volumes:
-    data_vol
+volumes:
+    mongo_data
