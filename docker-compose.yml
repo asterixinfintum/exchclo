@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   server:
     container_name: server
@@ -32,4 +33,4 @@ services:
     build: ./front
 
 volumes:
-    mongo_data
+  mongo_data: {}  # Correct way to declare a named volume
